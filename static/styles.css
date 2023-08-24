@@ -1,0 +1,35 @@
+
+table tr:first-child th:first-child {
+  border-top-left-radius: 6px;
+}
+
+table tr:first-child th:last-child {
+  border-top-right-radius: 6px;
+}
+
+table tr:last-child td:first-child {
+  border-bottom-left-radius: 6px;
+}
+
+table tr:last-child td:last-child {
+  border-bottom-right-radius: 6px;
+}
+
+.btn-bd-primary {
+  background-color: #7F00FF;
+  border: none;
+  border-radius:10px;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+<!--  margin: 4px 2px;-->
+  cursor: pointer;
+}
+
+.btn-bd-primary:hover {
+      background-color: #C3B1E1;
+      transition: 0.4s;
+  }
